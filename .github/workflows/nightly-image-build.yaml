@@ -12,8 +12,9 @@
 name: Nightly Dockerimage Build
 
 on:
-  schedule:
-    - cron:  '0 0 * * *'
+  push:
+    branches: 
+      - master
 jobs:
   build-push:
     runs-on: ubuntu-20.04
