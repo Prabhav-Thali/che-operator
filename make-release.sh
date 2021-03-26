@@ -16,7 +16,7 @@ init() {
   RELEASE="$1"
   BRANCH=$(echo $RELEASE | sed 's/.$/x/')
   RELEASE_BRANCH="${RELEASE}-release"
-  GIT_REMOTE_UPSTREAM="https://github.com/eclipse-che/che-operator.git"
+  GIT_REMOTE_UPSTREAM="https://github.com/Prabhav-Thali/che-operator.git"
   RUN_RELEASE=false
   PUSH_OLM_BUNDLES=false
   PUSH_GIT_CHANGES=false
